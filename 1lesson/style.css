@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 130px;
+  padding: 10px 60px;
+}
+
+.btn {
+  width: 100%;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav .nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  color: #6b17cd;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn.btn-sign-in {
+  max-width: 220px;
+  height: 45px;
+  background-color: #6b17cd;
+  border-radius: 6px;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.friday-post {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 56px;
+  border-radius: 10px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 6rem;
+}
+
+.article .article__header {
+  font-size: 28px;
+  color: #6b17cd;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-us .about-us__content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.products .products__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.products .products__item {
+  text-align: center;
+}
+
+.footer {
+  background-color: #f6deee;
+  padding: 18px 10px;
+  color: #535353;
+}
+
+.footer .footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-form .contact-form__input {
+  min-width: 320px;
+  padding: 5px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.contact-form__input::placeholder {
+  color: #666;
+}
+
+.btn.contact-form__btn {
+  max-width: 200px;
+  background-color: #e8c3ae;
+  border: 1px solid #cd6326;
+  border-radius: 10px;
+  padding: 10px 0;
+  transition: 0.3s linear background-color;
+}
+
+.btn.contact-form__btn:hover {
+  background-color: #cd6326;
+}

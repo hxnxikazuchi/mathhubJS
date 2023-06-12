@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="container header">
+        <img class="logo" src="./assets/logo.png" alt="logo" />
+        <nav class="nav">
+          <ul class="nav nav__list">
+            <li class="nav__list-item"><a href="#">Blog</a></li>
+            <li class="nav__list-item"><a href="#">Products</a></li>
+            <li class="nav__list-item"><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <button class="btn btn-sign-in">Sign In</button>
+      </header>
+      <main class="container main">
+        <img class="friday-post" src="./assets/background.jpg" alt="" />
+        <div class="container">
+          <article class="article about-us">
+            <h2 class="article__header about-us__title">About Us</h2>
+            <p class="about-us__content">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </article>
+          <article class="article products">
+            <h2 class="article__header products__title">products</h2>
+            <section class="products__content">
+              <article class="products__item">
+                <img
+                  class="products__item-img"
+                  src="./assets/goods.jpg"
+                  alt="goods image"
+                />
+                <p class="products__item-title">Product 1</p>
+              </article>
+              <article class="products__item">
+                <img
+                  class="products__item-img"
+                  src="./assets/goods.jpg"
+                  alt="goods image"
+                />
+                <p class="products__item-title">Product 2</p>
+              </article>
+              <article class="products__item">
+                <img
+                  class="products__item-img"
+                  src="./assets/goods.jpg"
+                  alt="goods image"
+                />
+                <p class="products__item-title">Product 3</p>
+              </article>
+              <article class="products__item">
+                <img
+                  class="products__item-img"
+                  src="./assets/goods.jpg"
+                  alt="goods image"
+                />
+                <p class="products__item-title">Product 4</p>
+              </article>
+              <article class="products__item">
+                <img
+                  class="products__item-img"
+                  src="./assets/goods.jpg"
+                  alt="goods image"
+                />
+                <p class="products__item-title">Product 5</p>
+              </article>
+            </section>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer__inner">
+          <img class="logo" src="./assets/logo.png" alt="logo" />
+          <div class="footer__contacts">
+            <h2 class="footer__contacts-email">hello@alphamw.com</h2>
+            <p class="footer__contacts-content">
+              Get in touch<br />Let's make something great together<br />Contact
+              us or start a project, we'll get back to you soon.
+            </p>
+          </div>
+          <form class="contact-form">
+            <input class="contact-form__input" type="text" placeholder="Name" />
+            <input
+              class="contact-form__input"
+              type="text"
+              placeholder="Email"
+            />
+            <button class="btn contact-form__btn" type="button">
+              Contact Me
+            </button>
+          </form>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
