@@ -9,11 +9,15 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
-  height: 100%;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -28,6 +32,7 @@ a {
   flex-wrap: wrap;
   min-height: 130px;
   padding: 10px 60px;
+  gap: 30px;
 }
 
 .btn {
@@ -39,6 +44,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav .nav__list {
@@ -147,4 +153,11 @@ a {
 
 .btn.contact-form__btn:hover {
   background-color: #cd6326;
+}
+
+@media screen and (max-width: 1050px) {
+  .header,
+  .footer .footer__inner {
+    justify-content: center;
+  }
 }
