@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1>Игра в угадывание чисел</h1>
+      <p>
+        Попробуйте угадать случайное число от
+        {<span class="min-number"></span>} до {<span class="max-number"></span>}.
+      </p>
+      <p>У вас есть <span class="total-lives"></span> попыток угадать правильное число.</p>
+      <div class="game">
+        <form class="game__form">
+          <label for="guessField" id="guess" class="guess">Угадай число</label>
+          <input type="text" id="guessField" class="guess-field" />
+          <button class="guess-btn">Угадать</button>
+        </form>
+
+        <div class="result">
+          <p>Предыдущие варианты: <span class="guesses"></span></p>
+          <p>Оставшиеся кол-во попыток: <span class="last-result"></span></p>
+          <p class="hint"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
